@@ -1,0 +1,29 @@
+.foto{
+  width: 300px;
+  border-radius: 10px;
+}
+
+@media screen and (min-width: 800px) {
+
+  .container{
+    display: flex;
+    justify-content: space-evenly;
+
+    .dados{
+      text-align: start;
+      align-self: center;
+    }
+
+    .foto{
+      cursor: pointer;
+      transition:  .3s;
+    }
+
+    .foto:hover{
+      opacity: 70%;
+    }
+
+  }
+  
+
+}
