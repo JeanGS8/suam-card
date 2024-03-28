@@ -1,0 +1,7 @@
+{
+  "name": "cardPerfil",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
